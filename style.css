@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(145, 145, 145);
+}
+
+.fixed {
+    position: absolute;
+    margin-top: -7px;
+}
+
+.fix {
+    height: 40px;
+}
+
+.header {
+    height: 55px;
+    margin-top: 0;
+    background-color: rgb(29, 29, 100);
+    position: fixed;
+    width: 100%;
+}
+
+.menu {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+ 
+.menu a {
+    max-width: 150px;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: rgb(240, 240, 241);
+    border: 2px solid rgb(33, 33, 138);
+    font-size: 19px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.menu a:hover {
+    background-color: rgb(189, 189, 240);
+    color: rgb(54, 10, 10);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.wrapper {
+    width: 1200px;
+    min-height: 1000px;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+    text-align: justify;
+}
+
+.content {
+    width: 600px;
+    margin-right: 20px;
+}
+
+.content p {
+    font: 1em / 1.5em "Roboto", sans-serif;
+    padding-left: 20px;
+}
+
+.content h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.content h2 {
+    font-size: 24px;
+    border-left: 5px solid rgb(1, 68, 1);
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+#about::before {
+    content: url(images/svg/person.svg);
+    padding-right: 10px;
+}
+
+#hobby::before {
+    content: url(images/svg/fitness.svg);
+    padding-right: 10px;
+}
+
+#education::before {
+    content: url(images/svg/school.svg);
+    padding-right: 10px;
+}
+
+.content h2:last-of-type::before {
+    content: url(images/svg/history.svg);
+    padding-right: 10px;
+}
+
+.content h1, .content h2 {
+    font-family: "Source Serif 4", serif;
+}
+
+.content li {
+    font-size: 21px;
+}
+
+.content ul {
+    padding-bottom: 20px;
+}
+
+.aside img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: rgb(29, 29, 100);
+    margin-top: -20px;
+    height: 100px;
+}
+
+.contacts {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 20px;
+    color: #a7a4a4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacts {
+    display: block;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#contacts::before {
+    content: url(images/svg/contacts.svg);
+    padding-right: 10px;
+    color: rgb(210, 210, 212);
+}
+
+.contacts__info {
+    display: flex;
+    gap: 20px;
+}
+
+.contacts p a {
+    color: rgb(210, 210, 212);
+}
