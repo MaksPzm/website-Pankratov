@@ -88,22 +88,22 @@ body {
 }
 
 #about::before {
-    content: url(/images/svg/person.svg);
+    content: url(images/svg/person.svg);
     padding-right: 10px;
 }
 
 #hobby::before {
-    content: url(/images/svg/fitness.svg);
+    content: url(images/svg/fitness.svg);
     padding-right: 10px;
 }
 
 #education::before {
-    content: url(/images/svg/school.svg);
+    content: url(images/svg/school.svg);
     padding-right: 10px;
 }
 
 .content h2:last-of-type::before {
-    content: url(/images/svg/history.svg);
+    content: url(images/svg/history.svg);
     padding-right: 10px;
 }
 
@@ -150,7 +150,7 @@ footer {
 }
 
 #contacts::before {
-    content: url(/images/svg/contacts.svg);
+    content: url(images/svg/contacts.svg);
     padding-right: 10px;
     color: rgb(210, 210, 212);
 }
